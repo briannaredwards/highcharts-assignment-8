@@ -1,17 +1,34 @@
 html {
-    font-size: 100%; /* keep */
-    box-sizing: border-box; /* keep */
+    font-size: 100%;
+    box-sizing: border-box;
 }
+
 * {
-    box-sizing: inherit; /* keep */
+    box-sizing: inherit;
 }
-h1 {
+
+h1, h2 {
     font-family: 'Libre Baskerville', Georgia, serif;
     text-align: center;
 }
+
 body {
     font-family: 'Raleway', Helvetica, sans-serif;
-    margin: 60px;
+    margin: 40px;
+    padding: 15px;
     background: #e0d5f0;
     color: #000;
+    max-width: 900px;
 }
+
+#container1, #container2 {
+  max-height: 400px;
+  max-width: 900px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 20px;
+    padding: 10px;
+  } }

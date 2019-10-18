@@ -19,7 +19,8 @@ Highcharts.chart('container1', {
   }]
 });
 
-  Highcharts.chart('container2', title: {
+  Highcharts.chart('container2', {
+      title: {
           text: 'Top American Time Consumption, 2008-2018'
       },
 
@@ -45,7 +46,7 @@ Highcharts.chart('container1', {
 
       series: [{
           name: 'Working',
-          data: [7.59, 7.48, 7.50, 7.64, 7.65, 7.58, 7.75, 7.63, 7.69, 7.62]
+          data: [7.59, 7.48, 7.50, 7.64, 7.65, 7.58, 7.75, 7.60, 7.63, 7.69, 7.62]
       }, {
           name: 'Leisure and Sports',
           data: [5.18, 5.25, 5.18, 5.21, 5.37, 5.26, 5.30, 5.21, 5.13, 5.24, 5.27]
